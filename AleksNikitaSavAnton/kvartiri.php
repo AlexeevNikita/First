@@ -42,17 +42,17 @@
 	<TD>
 			  <P>Add New Book:</P>
 			  <form action="kvartiri_form_action.php" method="post">
-          		  	adres: <input type="text" name="adres">
+          		  	Адрес: <input type="text" name="adres">
           		  	<br>
-          		  	ploshad: <input type="text" name="ploshad">
+          		  	Площадь: <input type="text" name="ploshad">
           		  	<br>
-          		  	count komnat: <input type="text" name="count_komnat">
+          		  	Количество комнат: <input type="text" name="count_komnat">
           		  	<br>
-          		  	etazh: <input type="text" name="etazh">
+          		  	Этаж: <input type="text" name="etazh">
           		  	<br>
-          		  	kratkoe opisanie: <input type="text" name="kratk">
+          		  	Краткое описание: <input type="text" name="kratk">
           		  	<br>
-				4elovek: 
+				Человек: 
 					<select name="cic">
 					<?php 
 		                        include('config.php');	
